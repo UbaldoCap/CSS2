@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <title>navabr</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a class="big">NavBar</a></li>
+            <li><a>Home</a></li>
+            <li><a class="lightgray">Link</a></li>
+            <li class="dropdown">
+                <a class="lightgray">Dropdown<span class="small">▼</span></a>
+                <div class="dropdown-content">
+                    <a href="#">Servizio 1</a>
+                    <a href="#">Servizio 2</a>
+                    <a href="#">Servizio 3</a>
+                </div>
+            </li>
+            <li><a class="gray">disabled</a></li>
+        </ul>
+        <ul>
+            <form action="/search" method="get">
+                <input type="text" class="search-box" name="q" placeholder="Search">
+                <button type="submit" class="search-button">Search</button>
+            </form>
+        </ul>
+    </nav>
+</body>
